@@ -1,0 +1,60 @@
+@font-face {
+    font-family: 'CormorantGaramond-Medium';
+    src:url('../fonts/Cormorant_Garamond/CormorantGaramond-Medium.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Angelahandwritting';
+    src:url('../fonts/Angelahandwritting-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    font-family:'Angelahandwritting';
+}
+/* navigation  */
+nav {
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+
+  nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style: none;
+    text-align: center;
+  }
+
+  nav li {
+    padding-bottom: 5px;
+    width: 15%;
+  }
+
+  nav li a {
+    color: gray;
+    letter-spacing: 2px;
+    text-decoration: none;
+  }
+
+  .nav{
+    color: rgb(49, 2, 2);
+    border: rgb(49, 2, 2) solid 1px;
+    padding: 5px;
+  }
+
+  .nav2{
+    color: gray;
+  }
+
+h1, h2{
+    text-align: center;
+    color: rgb(49, 2, 2);
+}
+
+nav ul li a:hover{
+    color: rgb(49, 2, 2)
+  }
