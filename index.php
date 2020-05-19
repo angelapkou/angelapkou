@@ -12,7 +12,7 @@
     <nav>
         <ul>
             <li> <a href="index.php" class="strike">About</a></li>
-            <li> <a href="projects.php"><strong> Projects </strong></a> </li>
+            <li> <a href="work.php"><strong> Work </strong></a> </li>
             <li> <a href="art.php">Art</a> </li>
         </ul>
     </nav>
