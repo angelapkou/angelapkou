@@ -18,7 +18,14 @@
     </nav>
 
     <div class="projectsection">
-        
+        <div class="breakfree">
+            <img src="images/breakfreecrop2.JPG" alt="breakfree">
+            <p>BreakFree Hip Hop Dance Group</p>
+        </div>
+        <div class="perfumes padding">
+            <img src="images/perfume2.png" alt="perfume1">
+            <p>Perfume Catalog</p>
+        </div>
     </div>
     
 </body>

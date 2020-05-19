@@ -80,3 +80,37 @@ nav ul li a:hover{
   font-size: larger;
   font-weight: bold;
 }
+
+/* projects */
+.projectsection{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: baseline;
+  text-align: center;
+  margin-top: 60px;
+}
+
+.projectsection p{
+  font-size: 25px;
+}
+
+.projectsection img{
+  width: 300px;
+  height: auto;
+  padding: 10px;
+}
+
+.breakfree, .perfumes{
+  border: lightgray solid 1px;
+  box-shadow: 5px 5px rgb(255, 221, 231);
+}
+
+.breakfree:hover, .perfumes:hover{
+  cursor: pointer;
+  opacity: 50%;
+}
+
+.padding{
+  margin-left: 30px;
+}
