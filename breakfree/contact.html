@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+    <meta charset = "utf-8" />
+    <title>BreakFree - Contact</title>
+
+    <link rel="stylesheet" type="text/CSS" href="styles/theme1.css" media="all" />
+
+    <script src="scripts/jquery-3.4.1.min.js" type="text/javascript"></script>
+
+    <script src="scripts/feedback.js" type="text/javascript"></script>
+
+  </head>
+
+  <body>
+
+    <div class="title">
+      <h1>
+      <a href="index.html"><img class="title_img" src="images/transparent-logo.png" alt="BreakFree logo" /></a>
+      <a class="link" href="index.html">BreakFree</a></h1>
+    </div>
+
+
+    <nav>
+      <ul>
+        <li><a href="index.html">About</a></li>
+        <li><a href="team.html">Team</a></li>
+        <li><a href="upcoming.html">Upcoming Events</a></li>
+        <li><a href="past.html">Past Events</a></li>
+        <li><a href="joinus.html">Join Us</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+
+<div class="contact">
+  <div class="contactheading">
+    <h1> Stay in touch with us! </h1>
+
+    <p>Enter your email to receive BreakFree updates, upcoming events, and more!</p>
+
+    <h2>Follow us on social media</h2>
+
+    <div class="logos">
+    <a href="https://www.instagram.com/breakfreehiphop/"><img class="logo" src="images/ig.png" alt="Instagram logo"/></a>
+
+    <a href="https://www.facebook.com/BreakFreeHipHop/"><img class="logo" src="images/fb.png" alt="Facebook logo"/></a>
+
+    <a href="https://twitter.com/breakfreehiphop"><img class="logo" src="images/twitter.png" alt="Twitter logo"/></a>
+
+    <a href="https://www.youtube.com/user/BreakFreeCornell"><img class="logo" src="images/youtube.png" alt="Youtube logo"/></a>
+    </div>
+
+    <div>
+        <cite><a href="https://www.iconfinder.com/social-media-icons">Source: Icon Finder</a></cite>
+    </div>
+
+  </div>
+
+
+  <div class="form" id="emailform">
+    <form id="feedback" action="https://www.cs.cornell.edu/courses/cs1300/2019fa/submit.php" method="post" novalidate>
+    <h3>BreakFree Interest Form</h3>
+      <div>
+        <p class="ast">*</p><label for="name">Name:</label>
+          <span class="error_message hidden" id="name_error">Please provide your name.</span>
+          <input type="text" id="name" name="user_name" placeholder="John Doe" required/>
+      </div>
+
+      <div>
+        <p class="ast">*</p><label for="mail">Email:</label>
+          <span class="error_message hidden" id="mail_error">Please provide your email.</span>
+          <input type="email" id="mail" name="user_mail" placeholder="abc@abc.com" required/>
+      </div>
+
+      <div>
+        <p class="ast">*</p><label for="year">Year:</label>
+        <select id="year" class="year1" name="year" required>
+          <option value="">--select--</option>
+          <option value="2020">2019</option>
+          <option value="2020">2020</option>
+          <option value="2021">2021</option>
+          <option value="2022">2022</option>
+          <option value="2023">2023</option>
+          <option value="2024">2024</option>
+        </select>
+        <span class="error_message hidden" id="year_error">Please choose an option.</span>
+      </div>
+
+      <div>
+        <span>Interested in:</span>
+        <div class="checkbox">
+
+          <label class="checkbox1">
+            <input type="checkbox" name="auditions" value="auditions">Auditions
+          </label>
+
+          <label class="checkbox1">
+            <input type="checkbox" name="workshops" value="workshops">Workshops
+          </label>
+
+          <label class="checkbox1">
+            <input type="checkbox" name="performances" value="performances">Performances
+          </label>
+
+        </div>
+
+      </div>
+
+      <div class="contactbutton">
+        <button type="submit" id="submit">Submit</button>
+      </div>
+
+    </form>
+  </div>
+</div>
+
+<div class ="footer">
+  <div class="copyright">
+    <p>Copyright &copy; 2019 BreakFree Hip Hop</p>
+  </div>
+
+  <div class="footerlogos">
+    <ul class="logolist">
+      <li><a href="https://www.youtube.com/user/BreakFreeCornell"><img class="logo" src="images/youtubebw.png" alt="Youtube logo"/></a></li>
+
+      <li><a href="https://twitter.com/breakfreehiphop"><img class="logo" src="images/twitterbw.png" alt="Twitter logo"/></a></li>
+
+      <li><a href="https://www.facebook.com/BreakFreeHipHop/"><img class="logo" src="images/facebook.png" alt="Facebook logo"/></a></li>
+
+      <li><a href="https://www.instagram.com/breakfreehiphop/"><img class="logo" src="images/instagram.png" alt="Instagram logo"/></a></li>
+
+      <li><cite><a href="https://www.iconfinder.com/social-media-icons">Source: Icon Finder</a></cite></li>
+    </ul>
+  </div>
+</div>
+
+  </body>
+</html>
