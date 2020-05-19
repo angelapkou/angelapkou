@@ -19,52 +19,64 @@ body{
 nav {
     margin-right: 20px;
     margin-left: 20px;
-  }
+    margin-top: 40px;
+    font-size: 25px;
+    font-weight: bold;
+}
 
-  nav ul {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    list-style: none;
-    text-align: center;
-  }
+nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  list-style: none;
+  text-align: center;
+}
 
-  nav li {
-    padding-bottom: 5px;
-    width: 15%;
-  }
+nav li {
+  padding-bottom: 5px;
+  width: 15%;
+}
 
-  nav li a {
-    color: gray;
-    letter-spacing: 2px;
-    text-decoration: none;
-  }
-
-  .nav{
-    color: rgb(49, 2, 2);
-    border: rgb(49, 2, 2) solid 1px;
-    padding: 5px;
-  }
-
-  .nav2{
-    color: gray;
-  }
-
-h1, h2{
-    text-align: center;
-    color: rgb(49, 2, 2);
+nav li a {
+  color: gray;
+  letter-spacing: 2px;
+  text-decoration: none;
 }
 
 nav ul li a:hover{
-    color: rgb(49, 2, 2)
-  }
+    color: rgb(255, 221, 231);
+}
+
+.strike{
+  border: rgb(255, 221, 231) solid 1px;
+  padding: 5px;
+}
 
 /* profile */
 
 .profile img{
-    width: 50%;
+    width: 400px;
+    height: auto;
 }
 
 .profile{
     display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    align-content: center;
+}
+
+.profiletext{
+  font-size: 25px;
+  margin-left: 60px;
+}
+
+#profiletitle{
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.profile p{
+  font-size: larger;
+  font-weight: bold;
 }
