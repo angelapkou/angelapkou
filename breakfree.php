@@ -16,6 +16,20 @@
             <li> <a href="art.php">Art</a> </li>
         </ul>
     </nav>
+
+    <div class="bfheading">
+        <h1><span>BreakFree Hip Hop Dance Group</span></h1>
+        <h2>INFO 1300 Beginning Web Design Final Project</h2>
+    </div>
+
+    <div class="bfimages">
+        <img src="images/bffront.png" alt="BreakFree Front Page">
+        <div>
+            <img src="images/bfpastevents.png" alt="BreakFree Past Events">
+            <img src="images/bfcontact.png" alt="Break Free Contact">
+        </div>
+    </div>
+    
     
 </body>
 </html>

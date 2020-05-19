@@ -85,7 +85,7 @@ nav ul li a:hover{
 .projectsection{
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-evenly;
   /* align-items: baseline; */
   text-align: center;
   margin-top: 30px;
@@ -123,7 +123,7 @@ nav ul li a:hover{
 }
 
 .padding{
-  margin-left: 30px;
+  /* margin-left: 30px; */
   margin-top: 30px;
 }
 
@@ -134,4 +134,35 @@ nav ul li a:hover{
 
 .padding:first-child{
   margin-left: 0px;
+}
+
+/* breakfree */
+
+.bfheading h1, h2{
+  text-align: center;
+}
+
+.bfheading span{
+  background-color: rgb(255, 221, 231);
+}
+
+.bfimages{
+  display: flex;
+  justify-content: center;
+}
+
+.bfimages div{
+  display: flex;
+  flex-direction: column;
+  margin-left: 15px;
+}
+
+.bfimages img:last-child{
+  margin-top: 15px;
+}
+
+.bfimages img{
+  width: 300px;
+  height: auto;
+  border: rgb(255, 221, 231) solid 1px;
 }

@@ -35,7 +35,7 @@
             <ul>
                 <li>Excel/PowerPoint/Word</li>
                 <li>Tableau</li>
-                <li>HTML/CSS/JS/SQL</li>
+                <li>HTML/CSS/SQL/PHP/JS</li>
                 <!-- <li>SQL</li>
                 <li>JavaScript</li> -->
                 <li>Python</li>
