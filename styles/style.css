@@ -58,3 +58,13 @@ h1, h2{
 nav ul li a:hover{
     color: rgb(49, 2, 2)
   }
+
+/* profile */
+
+.profile img{
+    width: 50%;
+}
+
+.profile{
+    display: flex;
+}

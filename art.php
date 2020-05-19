@@ -13,13 +13,7 @@ $about="nav";
 
 <body>
     <?php include("includes/nav.php");?>
-    <div class="profile">
-        <img src="images/angelaprofile.png" alt="angela's profile">
-        <div class="profiletext">
-            <p>Hi! I'm Angela Kou</p>
-            <p>I'm a rising junior, class of 2022, at Cornell University</p>
-        </div>
-    </div>
     
+    <img src="images/angelaprofile.png" alt="angela's profile">
 </body>
 </html>
