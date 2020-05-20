@@ -223,11 +223,6 @@ nav ul li a:hover{
   justify-content: center;
 }
 
-.bftask div:first-child{
-  /* margin-right: 30px; */
-  /* width: 500px; */
-}
-
 .bftask h3, li{
   font-size: 25px;
   font-weight: bold;
